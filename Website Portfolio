@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="p-icon" href="logo2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TSABENG PORTFOLIO WEBSITE </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/22826ce856.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="Images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web/App Developer</p>
+                <h1>Hi, I'm <span>Motlatsi</span><br>Tsabeng from Lesotho. </h1>
+            </div>
+         </div>
+    </div>
+   <!-------------ABOUT------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/About1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I am <b>Motlatsi Tsabeng</b>, a passionate web designer, programmer, and app developer with a knack for turning ideas into engaging digital experiences. 
+                        With a background in Mobile Computing/Development, I specialize in creating visually appealing, user-friendly, and high-performing websites and applications.<br><br>
+                        I am always excited to take on new challenges and collaborate with like-minded individuals. Whether you are looking for a new website, an innovative app, or a solution to a complex problem, I am here to help. 
+                        Feel free to contact me to discuss your project or just to say hello!<br><br>
+                        Thank you for visiting my portfolio. I look forward to creating something amazing together!
+                        </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web & App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Mobile Computing/Development</li>
+                            <li><span>2021 - Current</span><br> Internship at Ministry of Health</li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Bachelor of Science (Honours) in Mobile 
+                                Computing at <b>Botho University</b></li>
+                            <li><span>2016 - 2020</span><br>High School Diploma, National Senior Certificate</li>
+                        </ul>
+                    </div>   
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------SERVICES------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2><br>
+                    <p>I focus on responsive design to ensure a seamless user experience across all devices. My expertise includes:<br><br>
+                        •	User Experience (UX) Design: Creating intuitive and enjoyable experiences for users.<br><br>
+                        •	User Interface (UI) Design: Designing visually appealing and easy-to-navigate interfaces.<br><br>
+                        •	Tools and Technologies: Proficiency in tools like Adobe XD, Figma, and frameworks like Bootstrap.
+                        </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Programming</h2><br>
+                    <p>Programming is at the core of my skill set. I enjoy solving complex problems and building efficient solutions through code. My programming expertise covers:<br><br>
+                        •	Languages: Proficient in Python, JavaScript, Java, and C++.<br><br>
+                        •	Problem-Solving: Strong analytical skills and experience in developing algorithms and data structures.
+                        </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2><br>
+                    <p>In app design, I focus on creating engaging and functional mobile and web applications. I ensure that every app I design is user-centric and delivers a great experience. My skills include:<br><br>
+                        •	Mobile and Web App Development: Designing and developing apps for iOS, Android, and web platforms.<br><br>
+                        •	UI/UX for Apps: Crafting intuitive and engaging app interfaces through user testing and feedback.<br><br>
+                        •	Technical Stack: Proficiency in tools and technologies like React Native, Flutter, Swift, Kotlin, and backend technologies like Node.js and Firebase.
+                        </p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------PORTFOLIO------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Web.jpeg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Every website I create is fully responsive, ensuring a seamless Mexperience on desktops, tablets, and mobile devices.</p>
+                           <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Programming.jpeg">
+                    <div class="layer">
+                        <h3>Programming</h3>
+                        <p>Proficient in Python, Java, C++, and JavaScript, with a deep understanding of algorithms and data structures.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/App.jpeg">
+                    <div class="layer">
+                        <h3> Social/Music App </h3>
+                        <p>Experienced in developing apps for both iOS and Android, as well as web applications.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <!---------------CONTACT ME------------------->
+    <div id="contact">
+        <div class="container">
+           <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-location-dot"></i> Maseru, Lesotho</p>
+                <p><i class="fa-solid fa-right-to-bracket"></i> getmail@gmail.com </p>
+                <p><i class="fa-solid fa-phone"></i> 0123456789 </p>
+                <div class="social-icons">
+                  <a href="#"><i<i class="fa-brands fa-facebook"></i></i></a>  
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/TSABENG_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" method="post">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn" class="btn btn2"> Submit </button>
+                </form>
+            </div>
+           </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Motlatsi. Made with <i class="fa-solid fa-heart"></i> by Motlatsi Tsabeng</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx1QkeDpiWdKgV3kTBiB9RQDK-qyADHRa1UGt73jsm3yJqxILxfKrf-9Q2YtqiOa3H_2w/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
